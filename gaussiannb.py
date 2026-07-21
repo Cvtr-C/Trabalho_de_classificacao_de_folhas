@@ -57,7 +57,6 @@ for nome, atributo in atributos_selecao.items():
                 print(
                     f"Erro: A imagem {foto} é da especie {real}, mas o GaussianNB retornou {previsto}"
                 )
-        """
         acuracia = accuracy_score(y_test, y_pred)
         sensibilidade = recall_score(y_test, y_pred, average="macro")
         f1 = f1_score(y_test, y_pred, average="macro")
@@ -83,4 +82,3 @@ for nome, atributo in atributos_selecao.items():
         f"Sensibilidade: {np.mean(sensibilidade_folds):.4%} ± {np.std(sensibilidade_folds):.4%}"
     )
     print(f"F1_score: {np.mean(f1_score_folds):.4%} ± {np.std(f1_score_folds):.4%}")
-    """
