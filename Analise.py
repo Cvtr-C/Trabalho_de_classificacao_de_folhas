@@ -120,7 +120,7 @@ for _, linhas in dado.iterrows():
         "forma_convexidade": convexidade,
     }
     for i in range(7):
-        registro[f"momentos de hu {i+1}"] = hu_log[i]
+        registro[f"Hu {i+1}"] = hu_log[i]
     dados_completos.append(registro)
 df_features = pd.DataFrame(dados_completos)
 df_features.to_csv("Atributos.csv", index=False)
