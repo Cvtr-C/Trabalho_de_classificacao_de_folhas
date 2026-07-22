@@ -16,8 +16,8 @@ atributos = pd.read_csv("Atributos.csv")
 y = atributos["y"].values
 ids = atributos["id"].values
 atributos_glcm = [c for c in atributos.columns if c.startswith("glcm_")]
-atributos_lbp = [c for c in atributos.columns if c.startswith("lbp")]
-atributos_hu = [c for c in atributos.columns if c.startswith("momentos")]
+atributos_lbp = [c for c in atributos.columns if c.startswith("lbp_")]
+atributos_hu = [c for c in atributos.columns if c.startswith("Hu_")]
 atributos_forma = [c for c in atributos.columns if c.startswith("forma_")]
 
 # Combinações
