@@ -717,7 +717,7 @@ Predição
 
 # 👨‍💻 Autor
 
-**Cvtr-C**
+**Carlos Vitor Taleires Rodrigues**
 
 GitHub:
 
